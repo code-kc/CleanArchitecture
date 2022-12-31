@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{74A7D283-0720-4E06-8617-E56681A9B62F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{86BB87B7-F4C4-4A64-9D68-A736F004B978}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Application", "src\core\TicketManagement.Application\TicketManagement.Application.csproj", "{AF7AB2F6-E8E6-41DB-A0E0-A019B2C8E923}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Domain", "src\core\TicketManagement.Domain\TicketManagement.Domain.csproj", "{1E281F0B-8F1F-430E-B224-07AA3B077A3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AF7AB2F6-E8E6-41DB-A0E0-A019B2C8E923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF7AB2F6-E8E6-41DB-A0E0-A019B2C8E923}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF7AB2F6-E8E6-41DB-A0E0-A019B2C8E923}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF7AB2F6-E8E6-41DB-A0E0-A019B2C8E923}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E281F0B-8F1F-430E-B224-07AA3B077A3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E281F0B-8F1F-430E-B224-07AA3B077A3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E281F0B-8F1F-430E-B224-07AA3B077A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E281F0B-8F1F-430E-B224-07AA3B077A3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{86BB87B7-F4C4-4A64-9D68-A736F004B978} = {74A7D283-0720-4E06-8617-E56681A9B62F}
+		{AF7AB2F6-E8E6-41DB-A0E0-A019B2C8E923} = {86BB87B7-F4C4-4A64-9D68-A736F004B978}
+		{1E281F0B-8F1F-430E-B224-07AA3B077A3F} = {86BB87B7-F4C4-4A64-9D68-A736F004B978}
+	EndGlobalSection
+EndGlobal
