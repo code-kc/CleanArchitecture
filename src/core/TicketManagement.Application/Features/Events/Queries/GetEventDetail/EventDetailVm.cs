@@ -1,6 +1,6 @@
-﻿namespace TicketManagement.Domain;
+﻿namespace TicketManagement.Application.Features.Events.Queries.GetEventDetail;
 
-public class Event : AuditableEntity
+public class EventDetailVm
 {
   public Guid EventId { get; set; }
   public string Name { get; set; } = string.Empty;
@@ -10,6 +10,5 @@ public class Event : AuditableEntity
   public string? Description { get; set; }
   public string? ImageUrl { get; set; }
   public Guid CategoryId { get; set; }
-  public Category Category { get; set; } = default!;
-
+  public CategoryDto Category { get; set; } = default!;
 }

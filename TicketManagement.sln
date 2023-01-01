@@ -7,17 +7,22 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{74A7D283-072
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "core", "core", "{86BB87B7-F4C4-4A64-9D68-A736F004B978}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Application", "src\core\TicketManagement.Application\TicketManagement.Application.csproj", "{AF7AB2F6-E8E6-41DB-A0E0-A019B2C8E923}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketManagement.Application", "src\core\TicketManagement.Application\TicketManagement.Application.csproj", "{AF7AB2F6-E8E6-41DB-A0E0-A019B2C8E923}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TicketManagement.Domain", "src\core\TicketManagement.Domain\TicketManagement.Domain.csproj", "{1E281F0B-8F1F-430E-B224-07AA3B077A3F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicketManagement.Domain", "src\core\TicketManagement.Domain\TicketManagement.Domain.csproj", "{1E281F0B-8F1F-430E-B224-07AA3B077A3F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4CF506AD-4F87-45EC-8486-444DF613D47D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitignore = .gitignore
+		LICENSE = LICENSE
+		README.md = README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{AF7AB2F6-E8E6-41DB-A0E0-A019B2C8E923}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -29,9 +34,15 @@ Global
 		{1E281F0B-8F1F-430E-B224-07AA3B077A3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E281F0B-8F1F-430E-B224-07AA3B077A3F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{86BB87B7-F4C4-4A64-9D68-A736F004B978} = {74A7D283-0720-4E06-8617-E56681A9B62F}
 		{AF7AB2F6-E8E6-41DB-A0E0-A019B2C8E923} = {86BB87B7-F4C4-4A64-9D68-A736F004B978}
 		{1E281F0B-8F1F-430E-B224-07AA3B077A3F} = {86BB87B7-F4C4-4A64-9D68-A736F004B978}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D616CD1F-2D31-446C-80E6-3B52F58E3622}
 	EndGlobalSection
 EndGlobal

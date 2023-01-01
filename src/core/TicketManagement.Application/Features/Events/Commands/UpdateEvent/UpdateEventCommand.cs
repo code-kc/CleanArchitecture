@@ -1,6 +1,8 @@
-﻿namespace TicketManagement.Domain;
+﻿using MediatR;
 
-public class Event : AuditableEntity
+namespace TicketManagement.Application.Features.Events.Commands.UpdateEvent;
+
+public class UpdateEventCommand : IRequest
 {
   public Guid EventId { get; set; }
   public string Name { get; set; } = string.Empty;
@@ -10,6 +12,4 @@ public class Event : AuditableEntity
   public string? Description { get; set; }
   public string? ImageUrl { get; set; }
   public Guid CategoryId { get; set; }
-  public Category Category { get; set; } = default!;
-
 }
