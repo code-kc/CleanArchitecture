@@ -8,6 +8,6 @@ namespace TicketManagement.Application.Contracts.Persistence;
 
 public interface IOrderRepository : IAsyncRepository<Order>
 {
-  Task<List<OrdersForMonthDto>> GetPagedOrdersForMonth(DateTime date, int page, int size);
-  Task<int> GetTotalCountOfOrdersForMonth(DateTime date);
+    Task<List<OrdersForMonthDto>> GetPagedOrdersForMonth(DateTime date, int page, int size);
+    Task<int> GetTotalCountOfOrdersForMonth(DateTime date);
 }

@@ -4,5 +4,5 @@ namespace TicketManagement.Application.Features.Categories.Commands.CreateCateog
 
 public class CreateCategoryCommand : IRequest<CreateCategoryCommandResponse>
 {
-  public string Name { get; set; } = string.Empty;
+    public string Name { get; set; } = string.Empty;
 }

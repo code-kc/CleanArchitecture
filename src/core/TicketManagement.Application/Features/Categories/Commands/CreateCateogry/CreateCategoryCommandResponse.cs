@@ -4,10 +4,10 @@ namespace TicketManagement.Application.Features.Categories.Commands.CreateCateog
 
 public class CreateCategoryCommandResponse : BaseResponse
 {
-  public CreateCategoryCommandResponse() : base()
-  {
+    public CreateCategoryCommandResponse() : base()
+    {
 
-  }
+    }
 
-  public CreateCategoryDto Category { get; set; } = default!;
+    public CreateCategoryDto Category { get; set; } = default!;
 }
